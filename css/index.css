@@ -274,7 +274,7 @@ footer {
   height: 100px;
   width: 100px;
 }
-.skill-desc{
+.skill-desc {
   text-align: center;
 }
 
@@ -483,18 +483,17 @@ footer span a:hover {
 }
 
 /* hobbies section styling */
-.title{
+.title {
   font-size: 30px;
   margin-top: 20px;
   text-align: center;
   margin-bottom: 30px;
 }
 
-.text{
+.text {
   margin-top: 20px;
   font-weight: bold;
 }
-
 
 .hobbies .carousel .card {
   background: lightgrey;
@@ -505,7 +504,7 @@ footer span a:hover {
   transition: all 0.3s ease;
   height: 100%;
   width: 100%;
-  color:black;
+  color: black;
 }
 .hobbies .carousel .card:hover {
   background: crimson;
@@ -568,52 +567,52 @@ footer span a:hover {
 
 @media (max-width: 1104px) {
   .hobbies .carousel .card {
-      background: whitesmoke;
-      border-radius: 20px;
-      padding: 25px 35px;
-      text-align: center;
-      overflow: hidden;
-      transition: all 0.3s ease;
-      height: 400px;
-      width: 100%;
-      color:black;
-    }
-    .hobbies .carousel .card img {
-      height: 250px;
-      width: 250px;
-      object-fit: cover;
-      border-radius: 20%;
-      border: 5px solid crimson;
-      transition: all 0.3s ease;
-    }
-    .title{
-        margin-top: 70px;
-    }
+    background: whitesmoke;
+    border-radius: 20px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    height: 400px;
+    width: 100%;
+    color: black;
   }
+  .hobbies .carousel .card img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 20%;
+    border: 5px solid crimson;
+    transition: all 0.3s ease;
+  }
+  .title {
+    margin-top: 70px;
+  }
+}
 
 @media (max-width: 500px) {
-.title{
-          margin-top: 50px;
-      }
-.hobbies .carousel .card {
-          background: whitesmoke;
-          border-radius: 20px;
-          padding: 25px 35px;
-          text-align: center;
-          overflow: hidden;
-          transition: all 0.3s ease;
-          height: 100%;
-          width: 100%;
-          color:black;
-        }
-.hobbies .carousel .card img {
-          height: 250px;
-          width: 250px;
-          object-fit: cover;
-          border-radius: 20%;
-          border: 5px solid crimson;
-          transition: all 0.3s ease;
-      }
+  .title {
+    margin-top: 50px;
+  }
+  .hobbies .carousel .card {
+    background: whitesmoke;
+    border-radius: 20px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    height: 100%;
+    width: 100%;
+    color: black;
+  }
+  .hobbies .carousel .card img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 20%;
+    border: 5px solid crimson;
+    transition: all 0.3s ease;
+  }
 }
 
 /* project */
@@ -650,7 +649,6 @@ footer span a:hover {
 .row1-right {
   flex: 0.5;
   height: 350px;
-  
 }
 .row2-left {
   flex: 0.5;
@@ -665,7 +663,6 @@ footer span a:hover {
 
 .row-text {
   padding: 20px;
-  
 }
 .row-text-head {
   margin-top: 30px;
@@ -956,4 +953,8 @@ footer span a:hover {
     justify-content: space-evenly;
     margin-bottom: 50px;
   }
+}
+
+.a-link {
+  margin-left: 10px;
 }
